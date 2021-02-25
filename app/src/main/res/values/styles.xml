@@ -1,0 +1,42 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="EnterPin">
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_marginTop">150dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="EnterPinHorizontal">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="NewPin">
+        <item name="android:textSize">30sp</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
+    <style name="MarginButton">
+        <item name="android:layout_margin">5dp</item>
+    </style>
+    <style name="MarginButtonHorizontal">
+        <item name="android:layout_margin">2dp</item>
+    </style>
+    <style name="MarginFab">
+        <item name="android:layout_margin">20dp</item>
+    </style>
+    <style name="Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+    <style name="Subtitle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+</resources>

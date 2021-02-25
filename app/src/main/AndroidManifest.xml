@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.svet.shvetsnotes">
+
+    <application
+        android:name=".app.App"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_agenda"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_agenda"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".password.ChangePasswordActivity"
+            android:parentActivityName=".notes.NotesListActivity"/>
+        <activity
+            android:name=".notes.RecordingActivity"
+            android:parentActivityName=".notes.NotesListActivity" />
+        <activity android:name=".notes.NotesListActivity" />
+        <activity android:name=".password.EnterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

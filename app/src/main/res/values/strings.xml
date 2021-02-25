@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ShvetsNotes</string>
+    <string name="enter_pin">Введите пин-код:</string>
+    <string name="input_first_pin">Введите новый пин-код:</string>
+    <string name="wrong_password">Неправильный пин-код! Попробуете еще раз.</string>
+    <string name="short_password">Пароль должен содержать 4 цифры.</string>
+    <string name="new_password">Пароль сохранен</string>
+    <string name="clearSymbol"><![CDATA[<-]]></string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="settings">Настройки</string>
+    <string name="save">Сохранить</string>
+    <string name="new_pin">Новый пин-код</string>
+    <string name="headNotes">Загаловок заметки</string>
+    <string name="bodyNotes">Тело заметки</string>
+    <string name="deadline">Есть дедлайн</string>
+    <string name="dline">Дедлайн</string>
+    <string name="appCompatRecording">Новая заметка</string>
+    <string name="appCompatNoteList">Заметки</string>
+    <string name="visibility">Цифры</string>
+    <string name="notVisibility">Скрыт ввод</string>
+</resources>
